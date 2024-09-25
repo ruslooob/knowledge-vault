@@ -1,0 +1,11 @@
+- Зачем он нужен, как облегчает разработку
+- Основные компоненты спринга, application Context
+- Inversion of Control & Dependency Injection
+- Что такое Spring Boot, какие преимущества он предоставляет перед обычным spring
+- Bean. Bean scopes
+- Жизненный цикл бина и как можно в него вклиниться
+- Основные аннотации: `@Component`, `@Controller`, `@Repository`, `@Service`
+- Аннотация `@Autowired`, `@Qualifier`, `@Primary`
+- Что такое `@ComponentScan` и зачем он нужен
+- Решение проблемы циклической зависимости
+- Аннотация @Transactional
