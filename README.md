@@ -11,9 +11,9 @@
 - как создать свое исключение
 - конструкция try-finally
 ## Коллекции
-- иерархия коллекция
-- имплементация коллекций
-- алгоритмическая сложность операций над коллекциями
+- иерархия коллекция, основные интерфейсы [Struchkov](https://struchkov.dev/blog/ru/java-collection-framework/) 
+- имплементация коллекций [GitHub](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util)
+- алгоритмическая сложность операций над коллекциями [internal](<Java Core/Collections Operations Time Complexity>)
 ## Stream API
 - зачем придумали stream api [Annimon](https://annimon.com/article/2778#stream)
 - промежуточные и терминальные операторы map, filter, reduce, collect [Annimon](https://annimon.com/article/2778#intermediate-operators)
@@ -54,7 +54,11 @@
 - Виды сборщиков мусора и в чем фича каждого
 # [Spring](Spring\index)
 # [Базы данных](Database/index)
-
+- ACID [LeftJoin](https://leftjoin.ru/all/acid-and-databases/)
+- Индексы [Habr. RuVDS](https://habr.com/ru/companies/ruvds/articles/724066/)
+- Аномалии данных, уровни изоляций транзакций [PostgresPro](https://postgrespro.ru/docs/postgrespro/10/transaction-iso)
+- уровни нормализации [Microsoft](https://learn.microsoft.com/ru-ru/office/troubleshoot/access/database-normalization-description)
+- Оптимизация запросов [Youtube. Дорога Багов](https://www.youtube.com/watch?v=JCSv9RDP_lY)
 # [JPA & Hibernate](<JPA & Hibernate/index>)
 # [Kafka]()
 # [Кэширование]()

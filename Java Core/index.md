@@ -1,5 +1,8 @@
 Источники:
 
+Коллекции:
+- [Java Collection Framework: Полное руководство для разработчиков. Struchkov.dev](https://struchkov.dev/blog/ru/java-collection-framework/)
+
 Stream API
 - [Полное руководство по Java 8 Stream API в картинках и примерах. Annimon](https://annimon.com/article/2778)
 
