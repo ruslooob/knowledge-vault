@@ -9,3 +9,8 @@
 - Что такое `@ComponentScan` и зачем он нужен
 - Решение проблемы циклической зависимости
 - Аннотация @Transactional
+
+Стоит посмотреть
+- Спринг-потрошитель Евгений Борисов [Часть 1](https://www.youtube.com/watch?v=BmBr5diz8WA) и [Часть 2](https://www.youtube.com/watch?v=cou_qomYLNU)
+- [Transactional like a pro. Никита Летов](https://www.youtube.com/watch?v=QZ9rXZT0DlQ)
+- [Transactional. Уголок сельского джависта](https://www.youtube.com/watch?v=ZVYzVqqVrms)

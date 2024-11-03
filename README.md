@@ -80,6 +80,7 @@
 - уровни нормализации [Microsoft](https://learn.microsoft.com/ru-ru/office/troubleshoot/access/database-normalization-description)
 - Оптимизация запросов [Youtube. Дорога Багов](https://www.youtube.com/watch?v=JCSv9RDP_lY)
 - Offset vs Keyset Pagination [UseTheIndexLuke](https://use-the-index-luke.com/sql/partial-results/fetch-next-page)
+- Connection Pool[internal](Database/ConnectionPool.md)
 
 # [JPA & Hibernate](<JPA & Hibernate/index>)
 
