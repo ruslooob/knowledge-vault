@@ -77,6 +77,7 @@
 - ACID [LeftJoin](https://leftjoin.ru/all/acid-and-databases/)
 - Индексы [Habr. RuVDS](https://habr.com/ru/companies/ruvds/articles/724066/)
 - Аномалии данных, уровни изоляций транзакций [PostgresPro](https://postgrespro.ru/docs/postgrespro/10/transaction-iso)
+- Пессимистичная и оптимистичная блокировка [internal](Database/PessimisticAndOptimisticLocking.md)
 - уровни нормализации [Microsoft](https://learn.microsoft.com/ru-ru/office/troubleshoot/access/database-normalization-description)
 - Оптимизация запросов [Youtube. Дорога Багов](https://www.youtube.com/watch?v=JCSv9RDP_lY)
 - Offset vs Keyset Pagination [UseTheIndexLuke](https://use-the-index-luke.com/sql/partial-results/fetch-next-page)

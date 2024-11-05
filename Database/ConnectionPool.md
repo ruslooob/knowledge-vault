@@ -21,3 +21,4 @@ server-side - pgpool, pgbouncer, odissey
 
 Источники:
 - https://stackoverflow.blog/2020/10/14/improve-database-performance-with-connection-pooling/
+- [DEV2-12. 07. Пул соединений. YouTube. PostgresProfessional](https://www.youtube.com/watch?v=r3jBnu-j_8E)
