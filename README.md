@@ -17,9 +17,9 @@
 
 ## Коллекции
 
-- иерархия коллекция, основные интерфейсы [Struchkov](https://struchkov.dev/blog/ru/java-collection-framework/)
+- иерархия коллекций, основные интерфейсы [Struchkov](https://struchkov.dev/blog/ru/java-collection-framework/)
 - имплементация коллекций [GitHub](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util)
-- алгоритмическая сложность операций над коллекциями [internal](<Java Core/Collections Operations Time Complexity>)
+- алгоритмическая сложность операций над коллекциями [internal](<Java Core/Collections Operations Time Complexity.md>)
 
 ## Stream API
 
@@ -31,10 +31,17 @@
 
 ## Многопоточность
 
+- Java Memory Model [Jenkov](https://jenkov.com/tutorials/java-concurrency/java-memory-model.html)
+- Happens-before guarantee [Jenkov](https://jenkov.com/tutorials/java-concurrency/java-happens-before-guarantee.html)
+- Проблемы многопоточного программирования:
+- RaceConditions [Jenkov](https://jenkov.com/tutorials/java-concurrency/race-conditions-and-critical-sections.html)
+- DeadLocks [Jenkov](https://jenkov.com/tutorials/java-concurrency/deadlock.html)
+- LiveLocks
+- Starvation & Fairness [Jenkov](https://jenkov.com/tutorials/java-concurrency/starvation-and-fairness.html)
 - Класс Thread [Jenkov](https://jenkov.com/tutorials/java-concurrency/creating-and-starting-threads.html)
 - блок synchronized [Jenkov](https://jenkov.com/tutorials/java-concurrency/synchronized.html)
 - ключевое слово volatile [Jenkov](https://jenkov.com/tutorials/java-concurrency/volatile.html)
-- атомики, принцип compare and swap [Jenkov](https://jenkov.com/tutorials/java-concurrency/compare-and-swap.html)
+- Атомики, принцип Compare And Swap (CAS) [Jenkov](https://jenkov.com/tutorials/java-concurrency/compare-and-swap.html)
 - Пулы потоков:
     - ThreadPool [Jenkov](https://jenkov.com/tutorials/java-concurrency/thread-pools.html)
     - ExecutorService  [Jenkov](https://jenkov.com/tutorials/java-util-concurrent/executorservice.html)
@@ -50,17 +57,10 @@
 - Асинхронное выполнение
     - Future [Jenkov](https://jenkov.com/tutorials/java-util-concurrent/java-future.html)
     - CompletableFuture  [Annimon](https://annimon.com/article/3462)
-- Future, CompletableFuture [Jenkov]()
-- Java Memory Model [Jenkov](https://jenkov.com/tutorials/java-concurrency/java-memory-model.html)
-- Happens-before guarantee [Jenkov](https://jenkov.com/tutorials/java-concurrency/java-happens-before-guarantee.html)
-- Проблемы многопоточного программирования:
-    - RaceConditions [Jenkov](https://jenkov.com/tutorials/java-concurrency/race-conditions-and-critical-sections.html)
-    - DeadLocks [Jenkov](https://jenkov.com/tutorials/java-concurrency/deadlock.html)
-    - LiveLocks
-    - Starvation & Fairness [Jenkov](https://jenkov.com/tutorials/java-concurrency/starvation-and-fairness.html)
 - Многопоточные коллекции:
     - BlockingQueue [Jenkov](https://jenkov.com/tutorials/java-concurrency/blocking-queues.html)
     - ConcurrentHashMap [Jenkov](https://jenkov.com/tutorials/java-util-concurrent/concurrentmap.html)
+    - CopyOnWriteList
 
 ## [Устройство JVM]()
 
@@ -70,14 +70,25 @@
 
 # [Spring](Spring\index)
 
+- Что такое Bean
+- Bean Scopes
 - Жизненный цикл бина [Picture by @aplahuta](Spring/SpringBeanLifeCycle.jpg)
+- ApplicationContext
+- Основные аннотации: `@Component`, `@Controller`, `@Repository`, `@Service`
+- Аннотация `@Autowired`, `@Qualifier`, `@Primary`
+- Что такое `@ComponentScan` и зачем он нужен
 - @Transactional [Baeldung](https://www.baeldung.com/spring-transactional-propagation-isolation)
+- Уметь рассказать верхнеуровнево, как работает spring. Спринг-потрошитель Евгений Борисов [Часть 1](https://www.youtube.com/watch?v=BmBr5diz8WA) и [Часть 2](https://www.youtube.com/watch?v=cou_qomYLNU)
+
+## Spring Boot
+- мотивация создателей
+- Стартеры
 
 # [Базы данных](Database/index)
 
 - ACID [Моргунов](Database/acid.md)
 - Индексы [Habr. RuVDS](https://habr.com/ru/companies/ruvds/articles/724066/)
-- Аномалии данных, уровни изоляций транзакций [Моргунов](Database/data_anomalies_and_transaction_isolation_levels)
+- Аномалии данных, уровни изоляций транзакций [Моргунов](Database/data_anomalies_and_transaction_isolation_levels.md)
 - Пессимистичная и оптимистичная блокировка [internal](Database/PessimisticAndOptimisticLocking.md)
 - Нормальные
   формы [Microsoft](https://learn.microsoft.com/ru-ru/office/troubleshoot/access/database-normalization-description)
@@ -123,6 +134,7 @@
 - Kanban
 
 # OpenTelemetry
+
 - traceId & spanId
 
 # [Docker & K8S]()
